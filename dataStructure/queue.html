@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <title>WEB1 - dataStructure</title>
+  </head>
+  <body>
+    <h1><a href="../index.html">자료구조론</a></h1>
+    <ol>
+        <li><a href="dataStructure.html">DATA STRUCTURE</a></li>
+        <li><a href="../sort/sort.html">SORT ALGORITHM</a></li>
+    </ol><br>
+    <h2>큐</h2>
+    <p>
+      큐는 스택과 매우 유사하지만 몇 가지 차이점이 존재한다.<br>
+      1. 한쪽에서 모든 입출력이 이루어지던 스택과 달리, 한쪽에서는 출력만, 다른쪽에서는 입력만이 이루어진다.<br>
+      2. 따라서 처음 들어간 데이터가 가장 처음 나오는 선입선출(FIFO)의 구조를 갖는다.<br>
+    </p>
+    <p>
+      <img src="queue.png" width="60%"><br>
+      그림에서처럼 넣는 곳을 rear, 빼는 곳을 front라고 지칭한다.
+    </p>
+    <p>
+      큐의 연산에는,<br>
+      .enQueue(): rear에 데이터를 삽입한다.<br>
+      .peek(): front에 있는 데이터를 반환한다.<br>
+      .deQueue():  front에 있는 데이터를 삭제한다.<br>
+      .empty(): 큐가 비었다면 1을 반환하고,그렇지 않다면 0을 반환한다.<br>
+    </p>
+
+
+    <h3>분류</h3>
+    <ul>
+      <li>구현에 따라</li>
+      <ul style="list-style-type: square">
+        <li><a href="array.html">배열</a></li>
+        <li><a href="linkedList.html">연결리스트</a></li>
+      </ul>
+      <li>형태에 따라</li>
+      <ul>
+        <li>선형 구조</li>
+        <ul>
+          <li><a href="stack.html">스택</a></li>
+          <li><a href="queue.html">큐</a></li>
+        </ul>
+        <li>비선형 구조</li>
+        <ul>
+          <li><a href="graph.html">그래프</a></li>
+          <li><a href="tree.html">트리</a></li>
+        </ul>
+      </ul>
+    </ul>
+  </body>
+</html>
